@@ -1,0 +1,55 @@
+/* inclusion css <link rel="stylesheet" type="text/css" href="css/style1.css"> */
+/* modification écriture */
+h1
+{
+    font-family: 'Cinzel', serif;
+}
+.big
+{ 
+    font-size: 2em;
+    text-align: center;
+}
+.gray
+{  
+    color:#5C5C5E;
+}
+.center
+{
+    text-align: center;
+}
+.nav-item > li
+{
+    padding-left:30px;
+    padding-right:30px;
+}
+
+/* modfication fond d'écran */
+body
+{
+    background-image: url(../img/library-with-books.jpg) ;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* création de bordures */
+.square
+{   
+    display : inline-block;
+    border-width:3px;
+    border-style:double;
+    border-color:black;
+    background-color: white;
+}
+.plus
+{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 25px 15px 15px 25px ;
+}
+
+/* position de certains objets */
+footer
+{
+    margin-top: 50%;
+}
